@@ -40,72 +40,6 @@ The project was split into two milestones:
 ✅ Works 100% offline 💻
 
 ---
-
-## 💻 Tech Stack
-
-| Category              | Tools/Technologies                            |
-|-----------------------|-----------------------------------------------|
-| 👩‍💻 Programming Language | Python 3.11                                   |
-| 🧰 Backend Framework     | FastAPI, SQLAlchemy ORM, Pydantic             |
-| 🗃️ Database              | SQLite3                                      |
-| 🎨 GUI Framework         | Kivy                                         |
-| 🛠️ Tools & IDE           | VS Code, Git, GitHub                         |
-| 📘 API Docs              | Swagger UI, ReDoc                            |
-
----
-## 📁 Project Directory Structure
-
-```bash
-Student-Profile-Manager/
-├── student-profile-manager/
-│   ├── app/
-│   │   ├── routers/
-│   │   │   ├── students.py         # 🎓 Student CRUD routes
-│   │   │   ├── grades.py           # 🧪 Grade logic
-│   │   │   ├── years.py            # 🗓️ Academic year endpoints
-│   │   │   ├── branches.py         # 🏫 Branch info (CSE, ECE, etc.)
-│   │   │   └── subjects.py         # 📘 Subject details
-│   │   └── __init__.py             # Module initializer
-│   ├── student_profile_kivy_gui.py # 🖥️ Kivy GUI frontend
-│   ├── main.py                     # 🚀 FastAPI app launcher
-│   ├── seed_data.py                # 🌱 Pre-populates DB
-│   ├── init_db.py                  # 🧱 DB table creator
-│   ├── students.db                 # 🗃️ SQLite database file
-│   ├── requirements.txt            # 📦 Project dependencies
-│   └── ...
-├── students.db                     # 🔁 (Duplicate backup / for testing)
-└── README.md                       # 📄 You’re reading it!
-
-## ⚙️ Setup & Run
-
-### 🔁  Clone the Repo
-
-git clone https://github.com/VANISAIDEEPIKA/Student-Profile-Manager-API-Gradient.git
-cd Student-Profile-Manager-API-Gradient
-
-# ⬇️ Install Dependencies
-pip install -r requirements.txt
-
-# 🧱 Initialize the Database
-python init_db.py
-python seed_data.py
-
-# 🚀 Run Backend API (localhost:8001)
-start "" uvicorn main:app --reload --port 8001
-
-# 🖥️ Launch Kivy GUI (desktop app)
-python student_profile_kivy_gui.py
-
----
-
- 🌟 Project Highlights
-
-- 🧠 Learned full-stack Python (FastAPI + Kivy) in 30 days  
-- 🛠️ Wrote modular, clean backend with ORM models & dependency injection  
-- 💻 Designed a working GUI — no web frontend needed  
-- 🔗 Built a complete CRUD app usable offline
- 
----
 ## 📚 What I Learned in 30 Days
 
 I didn’t just *code* — I built something that connects all the concepts I’ve learned. Check out how this one project mapped to the 23/30 challenge days:
@@ -146,6 +80,80 @@ I didn’t just *code* — I built something that connects all the concepts I’
 🎨 **Day 30:** Kivy GUI Frontend – *Capstone Project*
 
 This wasn’t just a project — it was a *culmination*. A real, usable full-stack app built entirely in Python.
+
+---
+
+## 💻 Tech Stack
+
+| Category              | Tools/Technologies                            |
+|-----------------------|-----------------------------------------------|
+| 👩‍💻 Programming Language | Python 3.11                                   |
+| 🧰 Backend Framework     | FastAPI, SQLAlchemy ORM, Pydantic             |
+| 🗃️ Database              | SQLite3                                      |
+| 🎨 GUI Framework         | Kivy                                         |
+| 🛠️ Tools & IDE           | VS Code, Git, GitHub                         |
+| 📘 API Docs              | Swagger UI, ReDoc                            |
+
+---
+
+## 🌟 Project Highlights
+
+- 🧠 Learned full-stack Python (FastAPI + Kivy) in 30 days  
+- 🛠️ Wrote modular, clean backend with ORM models & dependency injection  
+- 💻 Designed a working GUI — no web frontend needed  
+- 🔗 Built a complete CRUD app usable offline
+ 
+---
+
+## 📁 Project Directory Structure
+
+```bash
+Student-Profile-Manager/
+├── student-profile-manager/
+│   ├── app/
+│   │   ├── routers/
+│   │   │   ├── students.py         # 🎓 Student CRUD routes
+│   │   │   ├── grades.py           # 🧪 Grade logic
+│   │   │   ├── years.py            # 🗓️ Academic year endpoints
+│   │   │   ├── branches.py         # 🏫 Branch info (CSE, ECE, etc.)
+│   │   │   └── subjects.py         # 📘 Subject details
+│   │   └── __init__.py             # Module initializer
+│   ├── student_profile_kivy_gui.py # 🖥️ Kivy GUI frontend
+│   ├── main.py                     # 🚀 FastAPI app launcher
+│   ├── seed_data.py                # 🌱 Pre-populates DB
+│   ├── init_db.py                  # 🧱 DB table creator
+│   ├── students.db                 # 🗃️ SQLite database file
+│   ├── requirements.txt            # 📦 Project dependencies
+│   └── ...
+├── students.db                     # 🔁 (Duplicate backup / for testing)
+└── README.md                       # 📄 You’re reading it!
+
+
+
+## ⚙️ Setup & Run
+
+### 🔁  Clone the Repo
+
+git clone https://github.com/VANISAIDEEPIKA/Student-Profile-Manager-API-Gradient.git
+cd Student-Profile-Manager-API-Gradient
+
+# ⬇️ Install Dependencies
+pip install -r requirements.txt
+
+# 🧱 Initialize the Database
+python init_db.py
+python seed_data.py
+
+# 🚀 Run Backend API (localhost:8001)
+start "" uvicorn main:app --reload --port 8001
+
+# 🖥️ Launch Kivy GUI (desktop app)
+python student_profile_kivy_gui.py
+
+
+
+ 
+
 
 
 
