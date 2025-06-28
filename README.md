@@ -57,11 +57,11 @@ The project was split into two milestones:
 
 ## 📸 Application Screenshots
 
-### 🌟 Kivy GUI
-![Kivy GUI](kivy_gui.png)
+### 🖥️ Kivy GUI
+![Kivy GUI](images/kivy_gui.png)
 
-### 🚀 FastAPI Swagger UI
-![FastAPI Swagger UI](swagger_ui.png)
+### 📝 Swagger UI
+![Swagger UI](images/swagger_ui.png)
 
 
 
