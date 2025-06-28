@@ -57,10 +57,11 @@ The project was split into two milestones:
 
 ## 🖼️ Screenshots
 
-| Swagger UI (`/docs`) | Kivy GUI |
-|----------------------|----------|
-| ![Swagger](screenshots/swagger.png) | ![Kivy](screenshots/kivy.png) |
+### 🖥️ Kivy GUI
+![Kivy GUI](images/kivy_gui.png)
 
+### 📝 Swagger UI
+![Swagger UI](images/swagger_ui.png)
 
 
 ---
