@@ -61,7 +61,7 @@ The project was split into two milestones:
 |----------------------|----------|
 | ![Swagger](screenshots/swagger.png) | ![Kivy](screenshots/kivy.png) |
 
-> Create a `screenshots/` folder and place your screenshots there!
+
 
 ---
 ## 📁 Project Directory Structure
