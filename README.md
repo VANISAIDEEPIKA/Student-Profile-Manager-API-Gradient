@@ -52,21 +52,6 @@ The project was split into two milestones:
 | 🛠️ Tools & IDE           | VS Code, Git, GitHub                         |
 | 📘 API Docs              | Swagger UI, ReDoc                            |
 
-
----
-
-## 📸 Application Screenshots
-
-### 🖥️ Kivy GUI
-![Kivy GUI](images/kivy_gui.png) 
-
-### 📝 Swagger UI 
-![Swagger UI](images/swagger_ui.png)
-
-
-
-
-
 ---
 ## 📁 Project Directory Structure
 
@@ -95,7 +80,6 @@ Student-Profile-Manager/
 
 ### 🔁  Clone the Repo
 
-```bash
 git clone https://github.com/VANISAIDEEPIKA/Student-Profile-Manager-API-Gradient.git
 cd Student-Profile-Manager-API-Gradient
 
