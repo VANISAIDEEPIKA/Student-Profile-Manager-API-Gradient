@@ -89,11 +89,11 @@ Student-Profile-Manager/
 
 ## ⚙️ Setup & Run
 
-### 1️⃣ Clone the Repo
+### 🔁  Clone the Repo
 
-
-
-
+```bash
+git clone https://github.com/VANISAIDEEPIKA/Student-Profile-Manager-API-Gradient.git
+cd Student-Profile-Manager-API-Gradient
 
 # ⬇️ Install Dependencies
 pip install -r requirements.txt
