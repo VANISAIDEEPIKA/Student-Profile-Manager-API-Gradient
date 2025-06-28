@@ -108,3 +108,11 @@ start "" uvicorn main:app --reload --port 8001
 # 🖥️ Launch Kivy GUI (desktop app)
 python student_profile_kivy_gui.py
 
+
+ 🌟 Project Highlights
+
+- 🧠 Learned full-stack Python (FastAPI + Kivy) in 30 days  
+- 🛠️ Wrote modular, clean backend with ORM models & dependency injection  
+- 💻 Designed a working GUI — no web frontend needed  
+- 🔗 Built a complete CRUD app usable offline  
+
