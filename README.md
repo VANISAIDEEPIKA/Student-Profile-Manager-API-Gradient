@@ -1,1 +1,1 @@
-# -Student-Profile-Manager-API-Gradient
+# Student Profile Manager API-Gradient
